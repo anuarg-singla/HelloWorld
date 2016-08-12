@@ -15,4 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private void initializeUI() {
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
 }
